@@ -1,4 +1,4 @@
-File.open("./reading_files/data.txt", "r") do |file|
+File.open("./files_io/data.txt", "r") do |file|
     # puts file.read()
     # puts file.readline()
     for line in file.readlines()
@@ -7,7 +7,7 @@ File.open("./reading_files/data.txt", "r") do |file|
 end
 
 # another way
-file = File.open("./reading_files/data.txt", "r")
+file = File.open("./files_io/data.txt", "r")
 
 puts file.read
 

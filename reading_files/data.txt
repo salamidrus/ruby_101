@@ -1,2 +1,0 @@
-idrus, backend
-putri, data scientist
